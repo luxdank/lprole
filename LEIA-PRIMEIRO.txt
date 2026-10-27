@@ -1,0 +1,13 @@
+RIOLE — COMO ABRIR O PROJETO
+
+1. Extraia este ZIP e abra a pasta RioLe no VS Code.
+2. Instale Node.js 22.13 ou superior e o gerenciador pnpm 11.25.
+3. No terminal da pasta do projeto, execute: pnpm install
+4. Depois execute: pnpm dev
+5. Abra no navegador o endereço informado no terminal.
+
+O conteúdo da página está principalmente em app/page.tsx e app/globals.css. A imagem do Rio está em public/rio-botafogo.webp.
+
+Este ZIP contém código-fonte, imagens e estrutura do projeto. Ele não inclui dependências instaladas, dados de inscritos, credenciais ou segredos. O formulário depende de um banco Cloudflare D1 configurado; uma cópia local tem banco separado do site hospedado e precisa das migrações descritas no README.md. O painel de inscritos depende da autenticação da hospedagem e da variável ADMIN_EMAIL; não pressupõe que funcionará em outra hospedagem sem configuração.
+
+O arquivo .openai/hosting.json identifica o site existente. Uma hospedagem em outro serviço exige configuração própria. Extraia e edite livremente antes de fazer qualquer publicação.
